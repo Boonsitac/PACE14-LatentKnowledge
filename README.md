@@ -49,18 +49,18 @@ Dataset must be a CSV file such as:
 | `abstract`  | Abstract or summary of the paper's content | String |
 
 ### Input location
-Replace file path in **D4_Final_Prototype.ipynb** before executing:
+Replace file path in `D4_Final_Prototype.ipynb` before executing:
   
     df = pd.read_csv('/content/outputs/full_renewable_energy_papers.csv')
     
 ## Output
-The interactive plotly outputs generated have been provided as html files and are located in **outputs/**.
+The interactive plotly outputs generated have been provided as html files and are located in `outputs/`.
   - 2D UMAP Scatter plot with hover labels
   - 3D UMAP Scatter plot with hover labels
-  - Datapoints belonging to **Cluster -1** = outliers (noise or documents with low-similarity)
+  - Datapoints belonging to **Cluster `-1`** = outliers (noise or documents with low-similarity)
 
 ## Configuration Options
-The following parameters may be altered in **D4_Prototype_Final.ipynb** prior to execution.
+The following parameters may be altered in `D4_Prototype_Final.ipynb` prior to execution.
 
 Tunable parameters for clustering:
 - min_cluster_size
