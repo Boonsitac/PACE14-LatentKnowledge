@@ -47,3 +47,15 @@ Tunable parameters for clustering:
 Tunable parameters for UMAP:
 - n_components
 - n_neighbors
+
+## Licensing
+The prototype utilises the following libraries and models:
+| Component                                 | License    |
+| ------------------------------------------| ---------- |
+| SentenceTransformer *(all-mpnet-base-v2)* | Apache 2.0 |
+| UMAP                                      | BSD        |
+| HDBSCAN                                   | BSD        |
+| Plotly                                    | MIT        |
+| scikit-learn                              | BSD        |
+| pandas                                    | BSD        |
+| numpy                                     | BSD        |
