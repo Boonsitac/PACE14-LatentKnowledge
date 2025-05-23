@@ -15,15 +15,19 @@ The density-based algorithms explored are:
 ## Input Formatting
 Dataset must be a CSV file such as:
 
-    /content/outputs/full_renewable_energy_papers.csv
-
+    full_renewable_energy_papers.csv
+ 
 ### Required Columns
 | Column Name | Description                                | Type   |
 | ----------- | ------------------------------------------ | ------ |
 | `title`     | Title of the research paper                | String |
 | `abstract`  | Abstract or summary of the paper's content | String |
 
-
+### Input location
+Replace file path in **D4_Final_Prototype.ipynb** before executing:
+  
+    df = pd.read_csv('/content/outputs/full_renewable_energy_papers.csv')
+    
 ## Output
 The interactive plotly outputs generated have been provided as html files and are located in the **main branch**.
 
