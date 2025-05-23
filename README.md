@@ -63,14 +63,14 @@ The interactive plotly outputs generated have been provided as html files and ar
 The following parameters may be altered in `D4_Prototype_Final.ipynb` prior to execution.
 
 Tunable parameters for clustering:
-- min_cluster_size
-- eps
-- min_samples
-- xi
+- `min_cluster_size`
+- `eps`
+- `min_samples`
+- `xi`
 
 Tunable parameters for UMAP:
-- n_components
-- n_neighbors
+- `n_components`
+- `n_neighbors`
 
 ## Libraries and Licensing
 The prototype utilises the following libraries and models:
