@@ -33,14 +33,14 @@ The interactive plotly outputs generated have been provided as html files and ar
 
 Datapoints belonging to **Cluster -1** are outliers and thus indicated as noise or documents with low-similarity.
 
-    Output File Names:
+### Output File Names
     
-    fig_dbscan_2d.html
-    fig_dbscan_3d.html
-    fig_hdbscan_2d.html
-    fig_hdbscan_3d.html
-    fig_optics_2d.html
-    fig_optics_3d.html
+  - fig_dbscan_2d.html
+  - fig_dbscan_3d.html
+  - fig_hdbscan_2d.html
+  - fig_hdbscan_3d.html
+  - fig_optics_2d.html
+  - fig_optics_3d.html
 
 ## Configuration Options
 The following parameters may be altered in **D4_Prototype_Final.ipynb** prior to execution.
