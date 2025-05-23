@@ -13,13 +13,16 @@ The density-based algorithms explored are:
 - Assist in identifying emerging trends and literature clusters.
 
 ## Input Formatting
-Expected format for corpus
-   
-    {
-      "title": "Paper title here",
-  
-      "abstract": "Abstract here..."
-    }
+Dataset must be a CSV file such as:
+
+    /content/outputs/full_renewable_energy_papers.csv
+
+### Required Columns
+| Column Name | Description                                | Type   |
+| ----------- | ------------------------------------------ | ------ |
+| `title`     | Title of the research paper                | String |
+| `abstract`  | Abstract or summary of the paper's content | String |
+
 
 ## Output
 The interactive plotly outputs generated have been provided as html files and are located in the **main branch**.
