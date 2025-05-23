@@ -80,7 +80,7 @@ Tunable parameters for UMAP:
 - n_components
 - n_neighbors
 
-## Licensing
+## Libraries and Licensing
 The prototype utilises the following libraries and models:
 | Component                                 | License    |
 | ------------------------------------------| ---------- |
