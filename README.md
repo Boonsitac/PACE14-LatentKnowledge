@@ -16,13 +16,13 @@ The density-based algorithms explored are:
 
 <pre><code> PACE14-LatentKnowledge/
   
-├── D4_Final_Prototype.ipynb            # Final prototype
+├── D4_Final_Prototype.ipynb                # Final prototype
 │
 ├── drafts/  
-├── Draft_1.ipynb                       # Early draft
-├── Draft_2.ipynb                       # Intermediate prototype
+├── Draft_1.ipynb                           # Early draft
+├── Draft_2.ipynb                           # Intermediate prototype
 │
-├── outputs/                            # HTML Interactive scatter plots of cluster outputs
+├── outputs/                                # HTML Interactive scatter plots of cluster outputs
 │   ├── fig_dbscan_2d.html
 │   ├── fig_dbscan_3d.html
 │   ├── fig_hdbscan_2d.html
@@ -30,11 +30,11 @@ The density-based algorithms explored are:
 │   ├── fig_optics_2d.html
 │   └── fig_optics_3d.html
 │
-├── dataset/                            # Input dataset
+├── dataset/                                # Input dataset
 │   └── full_renewable_energy_papers.csv
 │
-├── README.md                           # Project overview
-└── LICENSE                             # License file
+├── README.md                               # Project overview
+└── LICENSE                                 # License file
 </code></pre>
 
 ## Input Formatting
