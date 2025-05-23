@@ -12,6 +12,31 @@ The density-based algorithms explored are:
 - Provide researchers, students, and sponsors with an intuitive way to navigate academic papers.
 - Assist in identifying emerging trends and literature clusters.
 
+## Project Structure
+
+<pre><code> PACE14-LatentKnowledge/
+  
+├── D4_Final_Prototype.ipynb            # Final prototype
+│
+├── drafts/  
+├── Draft_1.ipynb                       # Early draft
+├── Draft_2.ipynb                       # Intermediate prototype
+│
+├── outputs/                            # HTML Interactive scatter plots of cluster outputs
+│   ├── fig_dbscan_2d.html
+│   ├── fig_dbscan_3d.html
+│   ├── fig_hdbscan_2d.html
+│   ├── fig_hdbscan_3d.html
+│   ├── fig_optics_2d.html
+│   └── fig_optics_3d.html
+│
+├── dataset/                            # Input dataset
+│   └── full_renewable_energy_papers.csv
+│
+├── README.md                           # Project overview
+└── LICENSE                             # License file
+</code></pre>
+
 ## Input Formatting
 Dataset must be a CSV file such as:
 
