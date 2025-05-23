@@ -19,15 +19,15 @@ The density-based algorithms explored are:
 ├── D4_Final_Prototype.ipynb                # Final prototype
 │
 ├── drafts/  
-├── Draft_1.ipynb                           # Early draft
-├── Draft_2.ipynb                           # Intermediate prototype
+│   └── Draft_1.ipynb                       # Early draft
+│   └── Draft_2.ipynb                       # Intermediate prototype
 │
-├── outputs/                                # HTML Interactive scatter plots of cluster outputs
-│   ├── fig_dbscan_2d.html
-│   ├── fig_dbscan_3d.html
-│   ├── fig_hdbscan_2d.html
-│   ├── fig_hdbscan_3d.html
-│   ├── fig_optics_2d.html
+├── outputs/                                # Interactive scatter plots of cluster outputs
+│   └── fig_dbscan_2d.html
+│   └── fig_dbscan_3d.html
+│   └── fig_hdbscan_2d.html
+│   └── fig_hdbscan_3d.html
+│   └── fig_optics_2d.html
 │   └── fig_optics_3d.html
 │
 ├── dataset/                                # Input dataset
