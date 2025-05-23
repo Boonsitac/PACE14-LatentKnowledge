@@ -54,18 +54,10 @@ Replace file path in **D4_Final_Prototype.ipynb** before executing:
     df = pd.read_csv('/content/outputs/full_renewable_energy_papers.csv')
     
 ## Output
-The interactive plotly outputs generated have been provided as html files and are located in the **main branch**.
-
-Datapoints belonging to **Cluster -1** are outliers and thus indicated as noise or documents with low-similarity.
-
-### Output File Names
-    
-  - fig_dbscan_2d.html
-  - fig_dbscan_3d.html
-  - fig_hdbscan_2d.html
-  - fig_hdbscan_3d.html
-  - fig_optics_2d.html
-  - fig_optics_3d.html
+The interactive plotly outputs generated have been provided as html files and are located in **outputs/**.
+  - 2D UMAP Scatter plot with hover labels
+  - 3D UMAP Scatter plot with hover labels
+  - Datapoints belonging to **Cluster -1** = outliers (noise or documents with low-similarity)
 
 ## Configuration Options
 The following parameters may be altered in **D4_Prototype_Final.ipynb** prior to execution.
