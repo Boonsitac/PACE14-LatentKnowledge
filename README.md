@@ -18,6 +18,14 @@ The density-based algorithms explored are:
   
 ├── D4_Final_Prototype.ipynb                # Final prototype
 │
+├── V2 D4 Prototype/                        # Final prototype but better  
+│   └── V2_Prototype_Phase_2.ipynb
+│   ├── outputs/                            # Interactive scatter plots of cluster outputs + similarity score
+│     └── fig_dbscan_2d.html
+│     └── fig_dbscan_3d.html
+│     └── fig_hdbscan_2d.html
+│     └── fig_hdbscan_3d.html
+│
 ├── drafts/  
 │   └── Draft_1.ipynb                       # Early draft
 │   └── Draft_2.ipynb                       # Intermediate prototype
