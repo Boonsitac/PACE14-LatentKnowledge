@@ -2,8 +2,12 @@
 
 The following project is phase 2 of Group 14's prototype on Hierarchical Visualisation Systems (HVS). It is a backend data pipeline for semantically clustering academic literature and visualising them in 2D and 3D environments. The prototype features unsupervised clustering algorithms and transformer-based embeddings. Visual representations have been generated using plotly for interactivity.
 
-The density-based algorithms explored are:
+In `D4 Final Protoype` the density-based algorithms explored are:
   - HDBSCAN
+  - DBSCAN
+  - OPTICS
+
+`V2 D4 Prototype` explores the following clustering algorithms whilst simultaneously incorporating query-based filtering:
   - DBSCAN
   - OPTICS
 
